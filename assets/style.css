@@ -1,12 +1,12 @@
 :root {
     --text-color: #DBE4EF;
-    --card-front-color: #7b7dbd;
+    --card-front-color: #77b0f0;
     --card-back-color: #413c7c;
 }
 
 
 body{
- background: url('./img/fundoooo.webp');
+ background: url('./img/fundo\ azul\ .webp');
  background-size: cover;
  font-family: "Merriweather", serif;   
 }
@@ -49,11 +49,17 @@ body{
 
 .cartao__conteudo__pergunta p{
     color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    justify-content: center;
     font-weight: 500;
 }
 
 .cartao__conteudo__resposta p{
     color: var(--card-back-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-weight: 700;
 }
 
